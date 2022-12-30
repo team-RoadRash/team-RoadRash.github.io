@@ -1,0 +1,32 @@
+# Main Title
+main:
+  header:
+    title : "Embedded Systems" # Title Text
+    description : "Welcome to the craziest website with cool, funky embedded systems projects!" # Title Desc
+    button:
+      text: "Learn More" # Button Text
+      url: "#about" # Button URL
+
+# About
+about:
+  title: "About us"
+  desc: "This is Suraj! I am a Graduate Student at the University of Pennsylvania in Electrical Engineering. This website contains the overview of cool projects that I've worked on over the years. Feel free to get in touch to learn more or to work together! ;)"
+  button:
+    enable: true
+    text: "Go to Projects"
+    url: "#projects"
+  image: "assets/img/ipad.png"
+
+projects:
+  card1:
+    title: "RC Car with Obstacle Avoidance and Voice Recognition"
+    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+    img: "assets/img/newcar2.jpg"
+  card2:
+    title: "Graysx"
+    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+    img: "assets/img/demo-image-01.jpg"
+  card3:
+    title: "Graysx"
+    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+    img: "assets/img/demo-image-02.jpg"
