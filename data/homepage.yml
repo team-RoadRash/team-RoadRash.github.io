@@ -20,7 +20,7 @@ about:
 projects:
   card1:
     title: "RC Car with Obstacle Avoidance and Voice Recognition"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+    text: "The tiny car is equipped with ultrasonic sensors that override user input from the remote controller to prevent any collisions with hurdles in the way. A voice recoginition model has been implemented to 'Start'/'Stop' the car upon user input."
     img: "assets/img/newcar2.jpg"
   card2:
     title: "Graysx"
