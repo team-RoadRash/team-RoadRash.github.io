@@ -39,7 +39,7 @@ Another significant issue was the calibration of the joystick. The joystick prov
   card5:
     title: "Feature Found Satisfying"
     text: "The complete system was satisfying. However, we liked the stop functionality of the car, since it could be controlled by the voice of the user. We decided to do this to immediately stop the car from crashing and prevent damage to the components in it"
-    img: "assets/img/demo-image-02.jpg"
+    img: "assets/img/satisfy.jpg"
   card6:
     title: "PIO Code Explanation"
     text: "The PIO part of the our system was the voice recognition model, which was trained using TensorFlow lite. Since the PIO can be programmed in C, the speed of ML model inference is extremely fast, since most machine learning libraries use python. The h5 tensorflow model format was converted into into a C byte-array to increase the inference speed. We also experimented with quantization methods and decided to use INT8 quantization to speed up the inference since it is much faster than the commonly used float32 model weight representation"
