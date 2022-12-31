@@ -27,7 +27,7 @@ projects:
     text: "To compile the code, please follow the following steps: 1. Setting up the remote: To set up the remote, please compile the code inside the transmitting folder inside the repository. Use adafruit qtpy for the transmitter. ALso, use another pico4ml board inside the remote control for the voice recognition system. This contains the usage of the pio module. Please use cmake to compile this. 2. Setting up the receiver: We are using two modules here: one rp pico and one pico4ml board. The rp pico receives the bluetooth information and sends it to the pico4ml, which is used to control the wheel speed of the car. Another python file is provided in this folder, that contains the implementation of the motor driving system. This must be compiled using circuitpython."
     img: "assets/img/BlockDiagram.jpg"
   card3:
-    title: "Significal Troubleshooting"
+    title: "Significant Troubleshooting"
     text: "One significant challenge in our project was to make the voice recognition model to be immune to ambient noise. This was done by using 2 categories of sounds to be classified: noise and stop. The noise samples are taken from the real life noise samples which were collected using the microphone of the Pico4ml board. Another challenge we faced was the sampling rate of the microphone. We experimented with different combinations and finally arrived at 16kHz sampling rate for the microphone. Another significant issue was the calibration of the joystick. The joystick provides output from 0 to 1023 with a value of 512 for the rest position. However, the joystick was not calibrated and hence we had to follow the following logic to calibrate it, since the rest position was 756, instead of 512."
     img: "assets/img/challenge.jpg"
   card4:
