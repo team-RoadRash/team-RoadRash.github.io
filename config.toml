@@ -1,4 +1,4 @@
-baseURL = 'https://team-roadrash.github.io/team-roadrash'
+baseURL = 'https://team-roadrash.github.io/'
 languageCode = 'en-us'
 theme = 'graysx'
 title = 'Embedded Systems'
@@ -10,7 +10,7 @@ favicon = "assets/webicon.png"
 
 # Info
 address = "6N 42nd St, USA"
-email = "surajsbm@seas.upenn.edu"
+email = "surajsbm@seas.upenn.edu  koushik@seas.upenn.edu"
 phone = "(929) 613-7802"
 
 # Socials

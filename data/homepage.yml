@@ -2,19 +2,21 @@
 main:
   header:
     title : "Embedded Systems" # Title Text
-    description : "Welcome to the craziest website with cool, funky embedded systems projects!" # Title Desc
+    description : "Welcome! You'll find cool embedded systems projects here!" # Title Desc
     button:
       text: "Learn More" # Button Text
       url: "#about" # Button URL
 
 # About
 about:
-  title: "About us"
-  desc: "This is Suraj! I am a Graduate Student at the University of Pennsylvania in Electrical Engineering. This website contains the overview of cool projects that I've worked on over the years. Feel free to get in touch to learn more or to work together! ;)"
+  title: "About the Project"
+  desc: "This project was focused initially to serve as a prototype to aid the physically challenged through a voice recognition model. The tiny RC car mimics/represents a system that could provide movement for the disabled through the use of simple commands such as start/stop vehicle. The control of the direction could be implemented using advanced ML features such as eye tracking, object tracing or through joysticks that could be actuated from other parts of human body such as jaw movement. The tiny RC car gives a minimalistic feel as to how this could be implemented so that it could be expanded further in the future. Feel free to get in touch to learn more or to work together! ;)"
+  img: "assets/img/ipad.png"
   button:
     enable: true
     text: "Go to Projects"
     url: "#projects"
+
 
 
 projects:
@@ -27,6 +29,10 @@ projects:
     text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
     img: "assets/img/demo-image-01.jpg"
   card3:
+    title: "Graysx"
+    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+    img: "assets/img/demo-image-02.jpg"
+  card4:
     title: "Graysx"
     text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
     img: "assets/img/demo-image-02.jpg"
