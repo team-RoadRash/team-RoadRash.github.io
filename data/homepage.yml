@@ -42,6 +42,3 @@ projects:
     title: "PIO Code Explanation"
     text: "The PIO part of the our system was the voice recognition model, which was trained using TensorFlow lite. Since the PIO can be programmed in C, the speed of ML model inference is extremely fast, since most machine learning libraries use python. The h5 tensorflow model format was converted into into a C byte-array to increase the inference speed. We also experimented with quantization methods and decided to use INT8 quantization to speed up the inference since it is much faster than the commonly used float32 model weight representation"
     img: "assets/img/pio.png"
-    
-    
-    
