@@ -15,7 +15,7 @@ about:
     enable: true
     text: "Go to Projects"
     url: "#projects"
-  image: "assets/img/ipad.png"
+
 
 projects:
   card1:
@@ -30,3 +30,4 @@ projects:
     title: "Graysx"
     text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
     img: "assets/img/demo-image-02.jpg"
+
