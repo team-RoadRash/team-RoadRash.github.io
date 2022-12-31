@@ -40,9 +40,3 @@ sbtoken = "TOKEN_HERE"
   name = "Contact"
   URL = "#signup"
   weight = 3
-
-
-# Credits
-
-# This theme is forked from: https://github.com/startbootstrap/startbootstrap-grayscale
-# This theme is forked by: https://github.com/akatiggerx04
