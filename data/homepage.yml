@@ -30,17 +30,15 @@ projects:
     title: "Significant Troubleshooting"
     text: "One significant challenge in our project was to make the voice recognition model to be immune to ambient noise. This was done by using 2 categories of sounds to be classified: noise and stop. The noise samples are taken from the real life noise samples which were collected using the microphone of the Pico4ml board. Another challenge we faced was the sampling rate of the microphone. We experimented with different combinations and finally arrived at 16kHz sampling rate for the microphone. Another significant issue was the calibration of the joystick. The joystick provides output from 0 to 1023 with a value of 512 for the rest position. However, the joystick was not calibrated and hence we had to follow the following logic to calibrate it, since the rest position was 756, instead of 512."
     img: "assets/img/challenge.jpg"
-    
-signup:
-  card1:
+  card4:
     title: "Reflections on Design"
     text: "We chose components that could be easily sourced from the Detkin lab inventory so that we could start working immediately on our project. We would recommend a similar design to future teams because the waiting time is significantly minimized. However, the future teams could opt for better microphones and joysticks."
     img: "assets/img/components.jpg"
-  card2:
+  card5:
     title: "Feature Found Satisfying"
     text: "The complete system was satisfying. However, we liked the stop functionality of the car, since it could be controlled by the voice of the user. We decided to do this to immediately stop the car from crashing and prevent damage to the components in it"
     img: "assets/img/satisfy.jpg"
-  card3:
+  card6:
     title: "PIO Code Explanation"
     text: "The PIO part of the our system was the voice recognition model, which was trained using TensorFlow lite. Since the PIO can be programmed in C, the speed of ML model inference is extremely fast, since most machine learning libraries use python. The h5 tensorflow model format was converted into into a C byte-array to increase the inference speed. We also experimented with quantization methods and decided to use INT8 quantization to speed up the inference since it is much faster than the commonly used float32 model weight representation"
     img: "assets/img/pio.png"
