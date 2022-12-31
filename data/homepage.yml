@@ -30,6 +30,11 @@ projects:
     title: "Significant Troubleshooting"
     text: "One significant challenge in our project was to make the voice recognition model to be immune to ambient noise. This was done by using 2 categories of sounds to be classified: noise and stop. The noise samples are taken from the real life noise samples which were collected using the microphone of the Pico4ml board. Another challenge we faced was the sampling rate of the microphone. We experimented with different combinations and finally arrived at 16kHz sampling rate for the microphone. Another significant issue was the calibration of the joystick. The joystick provides output from 0 to 1023 with a value of 512 for the rest position. However, the joystick was not calibrated and hence we had to follow the following logic to calibrate it, since the rest position was 756, instead of 512. For information regarding reflections on design, features found satisfying and PIO explanation, visit https://koushik-sss.github.io/team-roadrash_project/"
     img: "assets/img/challenge.jpg"
+  button:
+    enable: true
+    text: "Part 2 continued"
+    url: "https://koushik-sss.github.io/team-roadrash_project/"
+    image: "assets/img/about.jpg"
   card4:
     title: "Reflections on Design"
     text: "We chose components that could be easily sourced from the Detkin lab inventory so that we could start working immediately on our project. We would recommend a similar design to future teams because the waiting time is significantly minimized. However, the future teams could opt for better microphones and joysticks."
