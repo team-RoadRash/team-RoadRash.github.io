@@ -25,7 +25,7 @@ jobs:
 
     # build website
     - name: Build
-      run: hugo server
+      run: hugo --minify
 
     # push the generated content into the `gh-pages` branch.
     - name: Deploy
